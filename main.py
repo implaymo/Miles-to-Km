@@ -4,6 +4,7 @@ from tkinter import *
 window = Tk()
 window.title("My first GUI program")
 window.wm_minsize(100, 100)
+window.config(padx=20, pady=20)
 
 
 def miles_to_km_conversion():

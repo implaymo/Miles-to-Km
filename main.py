@@ -29,7 +29,6 @@ result_label = Label(text="0", font=("Arial", 10, "bold"))
 result_label.grid(column=1, row=1)
 
 
-
 # Button to do the conversion
 button = Button(text="Calculate", command=miles_to_km_conversion)
 button.grid(column=1, row=3)

@@ -9,7 +9,7 @@ window.config(padx=20, pady=20)
 
 def miles_to_km_conversion():
     """Converts Miles to Km"""
-    conversion = int(input.get()) * 1.609344
+    conversion = float(input.get()) * 1.609344
     result_label.config(text=f"{round(conversion)}")
 
 

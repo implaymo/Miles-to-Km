@@ -39,11 +39,4 @@ input.insert(END, string="0")
 input.grid(column=1, row=0)
 
 
-
-
-
-
-
-
-
 window.mainloop()

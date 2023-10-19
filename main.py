@@ -1,5 +1,6 @@
 from tkinter import *
-#
+
+# Window
 window = Tk()
 window.title("My first GUI program")
 window.wm_minsize(100, 100)
